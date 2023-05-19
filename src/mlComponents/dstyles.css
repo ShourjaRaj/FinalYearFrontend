@@ -1,0 +1,99 @@
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style the form */
+form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Style the form elements */
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+select,
+input[type="number"],
+input[type="checkbox"],
+input[name="smoking_history"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+select {
+  height: 30px;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin-right: 10px;
+}
+
+/* Style the submit button */
+#submit[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#submit[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Style error messages */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Style the smoking history column */
+label[for="smoking-history"] {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+p{
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(17, 255, 0);
+}
+.two-col {
+  overflow: hidden;/* Makes this div contain its floats */
+}
+
+.two-col .col1,
+.two-col .col2 {
+  width: 49%;
+}
+
+.two-col .col1 {
+  float: left;
+  padding: 5px;
+}
+
+.two-col .col2 {
+  float: right;
+  padding: 6px;
+}
+
+.two-col label {
+  display: block;
+}
